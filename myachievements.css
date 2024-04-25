@@ -41,41 +41,26 @@
  }
  .tasks{
     border: solid purple 5px;
+    display: flex;
+    gap: 100px;
+    margin: 5%;
  }
-
-.Task{
-    position: relative;
-    display:inline-block;
-    margin: 50px;
-    
-
-    
-  }
-.Task input {
-    padding-right: 40px;
-    padding: 10px 10px;
-    width: 180%;
-    font-size: 30px;
-    border-radius: 19px;
+.list1{
+    font-size: 25px;
+    border:solid 2px purple ;
+    margin-left: 210px;
+    border-radius: 20px;
 }
-.Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(320%,1%);
-    font-size: 84%;
+.list2{
+    font-size: 25px;
+    border:solid 2px purple ;
+    border-radius: 20px;
 }
 @media only screen and (min-width:200px) and (max-width:400px){
   .navbar {
-
     padding-right: 0px;
+    background-color: purple;
+    cursor: pointer;
   
   }
   .navbar a {
@@ -84,7 +69,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
   
   }
   
@@ -101,7 +86,7 @@
   }
  .header{
     background-color: purple;
-    border: solid purple 3px;
+    border: solid purple 2px;
     margin-top: 100px;
     margin-left: 0px;
     margin-right: 0px;
@@ -113,43 +98,29 @@
  }
  .tasks{
     border: solid purple 5px;
- }
-
-.Task{
-    position: relative;
-    display:flex;
     flex-wrap: wrap;
-    margin: 0px;
-    
-
-    
-  }
-.Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
-}
-.Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
+    gap: 0px;
+    margin: 0%;
+ }
+.list1{
     font-size: 15px;
-} 
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 10px;
+    width:210px;
+}
+.list2{
+    font-size: 15px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+}
 }
 @media only screen and (min-width:400px) and (max-width:600px){
   .navbar {
-
+    
     padding-right: 0px;
+    background-color: purple;
+    cursor: pointer;
   
   }
   .navbar a {
@@ -158,7 +129,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
   
   }
   
@@ -175,7 +146,7 @@
   }
  .header{
     background-color: purple;
-    border: solid purple 3px;
+    border: solid purple 2px;
     margin-top: 100px;
     margin-left: 0px;
     margin-right: 0px;
@@ -187,43 +158,27 @@
  }
  .tasks{
     border: solid purple 5px;
- }
-
-.Task{
-    position: relative;
-    display:flex;
     flex-wrap: wrap;
-    margin: 0px;
-    
-
-    
-  }
-.Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+    gap: 0px;
+    margin: 0%;
+ }
+.list1{
+    font-size: 20px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
 }
-.Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+.list2{
+    font-size: 25px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+}
 }
 @media only screen and (min-width:600px) and (max-width:800px){
   .navbar {
-
     padding-right: 0px;
+    background-color: purple;
+    cursor: pointer;
   
   }
   .navbar a {
@@ -232,7 +187,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
   
   }
   
@@ -249,7 +204,7 @@
   }
  .header{
     background-color: purple;
-    border: solid purple 3px;
+    border: solid purple 2px;
     margin-top: 100px;
     margin-left: 0px;
     margin-right: 0px;
@@ -261,43 +216,29 @@
  }
  .tasks{
     border: solid purple 5px;
- }
-
-.Task{
-    position: relative;
-    display:flex;
     flex-wrap: wrap;
-    margin: 0px;
-    
-
-    
-  }
-.Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+    gap: 0px;
+    margin: 0%;
+ }
+.list1{
+    font-size: 20px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
 }
-.Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+.list2{
+    font-size: 25px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+  
+}
 }
 @media only screen and (min-width:800px) and (max-width:1000px){
   .navbar {
-
+   
     padding-right: 0px;
+    background-color: purple;
+    cursor: pointer;
   
   }
   .navbar a {
@@ -306,7 +247,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
   
   }
   
@@ -323,7 +264,7 @@
   }
  .header{
     background-color: purple;
-    border: solid purple 3px;
+    border: solid purple 2px;
     margin-top: 100px;
     margin-left: 0px;
     margin-right: 0px;
@@ -335,43 +276,28 @@
  }
  .tasks{
     border: solid purple 5px;
- }
-
-.Task{
-    position: relative;
-    display:flex;
     flex-wrap: wrap;
-    margin: 0px;
-    
-
-    
-  }
-.Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+    gap: 0px;
+    margin: 0%;
+ }
+.list1{
+    font-size: 20px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
 }
-.Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+.list2{
+    font-size: 25px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+}
 }
 @media only screen and (min-width:1000px) and (max-width:1300px){
   .navbar {
-
+  
     padding-right: 0px;
+    background-color: purple;
+    cursor: pointer;
   
   }
   .navbar a {
@@ -380,7 +306,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
   
   }
   
@@ -397,7 +323,7 @@
   }
  .header{
     background-color: purple;
-    border: solid purple 3px;
+    border: solid purple 2px;
     margin-top: 100px;
     margin-left: 0px;
     margin-right: 0px;
@@ -409,42 +335,19 @@
  }
  .tasks{
     border: solid purple 5px;
- }
-
-.Task{
-    position: relative;
-    display:flex;
     flex-wrap: wrap;
-    margin: 0px;
-    
-
-    
-  }
-.Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+    gap: 0px;
+    margin: 0%;
+ }
+.list1{
+    font-size: 20px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
 }
-.Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+.list2{
+    font-size: 25px;
+    border:solid 2px purple ;
+    border-radius: 20px;
 }
-
-
-
-
-
-
+}

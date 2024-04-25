@@ -1,0 +1,252 @@
+.navbar {
+  overflow: hidden;
+  padding-right: 250px;
+  justify-content: space-between;
+  background-color: purple;
+  cursor: pointer;
+
+}
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.navbar a:hover {
+
+  color:blueviolet;
+}
+
+
+.navbar a.split {
+  float: left;
+margin-left: 180px;
+  color: white;
+}
+.header{
+  background-color: purple;
+  border: solid purple 3px;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 20px;
+}
+#heading{
+  text-align: center;
+  color: white;
+}
+.goals{
+  border: solid purple 5px;
+  display: flex;
+  gap: 100px;
+  margin: 5%;
+}
+.mygoals{
+  font-size: 25px;
+  border:solid 2px purple ;
+  margin-left: 150px;
+  border-radius: 20px;
+}
+.mygoals{
+  font-size: 23px;
+  border:solid 2px purple ;
+  border-radius: 20px;
+}
+@media only screen and  (min-width:200px) and (max-width: 400px) {
+  .navbar {
+    overflow: hidden;
+    padding-right: 0px;
+    background-color: purple;
+    cursor: pointer;
+  
+  }
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  
+  .navbar a:hover {
+  
+    color:blueviolet;
+  }
+  
+  
+  .navbar a.split {
+    float: left;
+  margin-left: 0px;
+    color: white;
+  }
+  .header{
+    background-color: purple;
+    border: solid purple 3px;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  #heading{
+    text-align: center;
+    color: white;
+  }
+  .goals{
+    flex-wrap: wrap;
+    gap: 0px;
+    
+  }
+  .mygoals{
+    font-size: 25px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
+  }
+  .mygoals{
+    font-size: 22px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+  }
+
+}
+@media only screen and  (min-width:400px) and (max-width: 600px) {
+  .navbar {
+    overflow: hidden;
+    background-color: purple;
+    cursor: pointer;
+  
+  }
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+  
+  }
+  
+  
+  .navbar a.split {
+    float: right;
+    color: white;
+  }
+  .header{
+    background-color: purple;
+    border: solid purple 3px;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  #heading{
+    text-align: center;
+    color: white;
+  }
+  .goals{
+    flex-wrap: wrap;
+    gap: 0px;
+    
+  }
+  .mygoals{
+    font-size: 25px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
+  }
+  .mygoals{
+    font-size: 22px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+  }
+
+}
+@media only screen and  (min-width:600px) and (max-width: 800px) {
+  .navbar {
+    overflow: hidden;
+    background-color: purple;
+    cursor: pointer;
+  
+  }
+  .navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+  
+  }
+  
+  
+  .navbar a.split {
+    float: left;
+    color: white;
+  }
+  .header{
+    background-color: purple;
+    border: solid purple 3px;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  #heading{
+    text-align: center;
+    color: white;
+  }
+  .goals{
+    flex-wrap: wrap;
+    gap: 0px;
+    
+  }
+  .mygoals{
+    font-size: 25px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
+  }
+  .mygoals{
+    font-size: 22px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+  }
+
+}
+@media only screen and  (min-width:800px) and (max-width: 1000px) {
+  .header{
+    background-color: purple;
+    border: solid purple 3px;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 20px;
+  }
+  #heading{
+    text-align: center;
+    color: white;
+  }
+  .goals{
+    flex-wrap: wrap;
+    gap: 0px;
+    
+  }
+  .mygoals{
+    font-size: 25px;
+    border:solid 2px purple ;
+    margin-left: 0px;
+    border-radius: 20px;
+  }
+  .mygoals{
+    font-size: 22px;
+    border:solid 2px purple ;
+    border-radius: 20px;
+  }
+
+}

@@ -1,0 +1,384 @@
+.navbar {
+    overflow: hidden;
+    padding-right: 250px;
+    justify-content: space-between;
+    background-color: purple;
+    cursor: pointer;
+  
+  }
+  .navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  
+  .navbar a:hover {
+  
+    color:blueviolet;
+  }
+  
+  
+  .navbar a.split {
+    float: left;
+  margin-left: 180px;
+    color: white;
+  }
+  .mentorspage{
+    display: flex;
+    flex: auto;
+   gap: 200px;
+    margin-top: 50px;
+  }
+  #mentorphoto{
+    border-radius: 200px;
+  }
+  .mentorsimage{
+    margin-left: 200px;
+  
+
+  }
+  .headings{
+    font-size: 30px;
+    color: purple;
+  }
+  #additionaltext{
+    font-size: 25px;
+    color: rgb(97, 88, 88);
+  }
+  button {
+    border: solid rgb(120, 9, 109) ;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(72, 16, 98);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 5px;
+  }
+  @media only screen and  (min-width:200px) and (max-width: 400px) {
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  
+  }
+  
+  .navbar a:hover {
+  
+    color:blueviolet;
+  }
+  
+  
+  .navbar a.split {
+    float: right;
+  margin-left: 0px;
+    color: white;
+  }
+  .mentorspage{
+    
+   flex-wrap: wrap;
+   gap: 0px;
+    margin-top: 50px;
+  }
+  #mentorphoto{
+    border-radius: 200px;
+  }
+  .mentorsimage{
+    margin-left: 0px;
+  
+
+  }
+  .headings{
+    font-size: 30px;
+    color: purple;
+  }
+  #additionaltext{
+    font-size: 25px;
+    color: rgb(97, 88, 88);
+  }
+  button {
+    border: solid rgb(120, 9, 109) ;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(72, 16, 98);
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 5px;
+  }
+  }
+  @media only screen and  (min-width:400px) and (max-width: 600px) {
+    .navbar a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    
+    }
+    
+    .navbar a:hover {
+    
+      color:blueviolet;
+    }
+    
+    
+    .navbar a.split {
+      float: right;
+    margin-left: 0px;
+      color: white;
+    }
+    .mentorspage{
+      
+     flex-wrap: wrap;
+     gap: 0px;
+      margin-top: 50px;
+    }
+    #mentorphoto{
+      border-radius: 200px;
+    }
+    .mentorsimage{
+      margin-left: 0px;
+    
+  
+    }
+    .headings{
+      font-size: 30px;
+      color: purple;
+    }
+    #additionaltext{
+      font-size: 25px;
+      color: rgb(97, 88, 88);
+    }
+    button {
+      border: solid rgb(120, 9, 109) ;
+      padding: 10px 20px;
+      color: white;
+      background-color:rgb(72, 16, 98);
+      text-align: center;
+      border-radius: 25px;
+      margin-top: 5px;
+    }
+    }
+    @media only screen and  (min-width:400px) and (max-width: 600px) {
+      .navbar a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+      
+      }
+      
+      .navbar a:hover {
+      
+        color:blueviolet;
+      }
+      
+      
+      .navbar a.split {
+        float: right;
+      margin-left: 0px;
+        color: white;
+      }
+      .mentorspage{
+        
+       flex-wrap: wrap;
+       gap: 0px;
+        margin-top: 50px;
+      }
+      #mentorphoto{
+        border-radius: 200px;
+      }
+      .mentorsimage{
+        margin-left: 0px;
+      
+    
+      }
+      .headings{
+        font-size: 30px;
+        color: purple;
+      }
+      #additionaltext{
+        font-size: 25px;
+        color: rgb(97, 88, 88);
+      }
+      button {
+        border: solid rgb(120, 9, 109) ;
+        padding: 10px 20px;
+        color: white;
+        background-color:rgb(72, 16, 98);
+        text-align: center;
+        border-radius: 25px;
+        margin-top: 5px;
+      }
+      }
+      @media only screen and  (min-width:600px) and (max-width: 800px) {
+        .navbar a {
+          float: left;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 20px;
+        
+        }
+        
+        .navbar a:hover {
+        
+          color:blueviolet;
+        }
+        
+        
+        .navbar a.split {
+          float: right;
+        margin-left: 0px;
+          color: white;
+        }
+        .mentorspage{
+          
+         flex-wrap: wrap;
+         gap: 0px;
+          margin-top: 50px;
+        }
+        #mentorphoto{
+          border-radius: 200px;
+        }
+        .mentorsimage{
+          margin-left: 0px;
+        
+      
+        }
+        .headings{
+          font-size: 30px;
+          color: purple;
+        }
+        #additionaltext{
+          font-size: 25px;
+          color: rgb(97, 88, 88);
+        }
+        button {
+          border: solid rgb(120, 9, 109) ;
+          padding: 10px 20px;
+          color: white;
+          background-color:rgb(72, 16, 98);
+          text-align: center;
+          border-radius: 25px;
+          margin-top: 5px;
+        }
+        }
+        @media only screen and  (min-width:800px) and (max-width: 1000px) {
+          .navbar a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+          
+          }
+          
+          .navbar a:hover {
+          
+            color:blueviolet;
+          }
+          
+          
+          .navbar a.split {
+            float: right;
+          margin-left: 0px;
+            color: white;
+          }
+          .mentorspage{
+            
+           flex-wrap: wrap;
+           gap: 0px;
+            margin-top: 50px;
+          }
+          #mentorphoto{
+            border-radius: 200px;
+          }
+          .mentorsimage{
+            margin-left: 0px;
+          
+        
+          }
+          .headings{
+            font-size: 30px;
+            color: purple;
+          }
+          #additionaltext{
+            font-size: 25px;
+            color: rgb(97, 88, 88);
+          }
+          button {
+            border: solid rgb(120, 9, 109) ;
+            padding: 10px 20px;
+            color: white;
+            background-color:rgb(72, 16, 98);
+            text-align: center;
+            border-radius: 25px;
+            margin-top: 5px;
+          }
+          }
+          @media only screen and  (min-width:1000px) and (max-width: 1300px) {
+            .navbar a {
+              float: left;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 20px;
+            
+            }
+            
+            .navbar a:hover {
+            
+              color:blueviolet;
+            }
+            
+            
+            .navbar a.split {
+              float: right;
+            margin-left: 0px;
+              color: white;
+            }
+            .mentorspage{
+              
+             flex-wrap: wrap;
+             gap: 0px;
+              margin-top: 50px;
+            }
+            #mentorphoto{
+              border-radius: 200px;
+            }
+            .mentorsimage{
+              margin-left: 0px;
+            
+          
+            }
+            .headings{
+              font-size: 30px;
+              color: purple;
+            }
+            #additionaltext{
+              font-size: 25px;
+              color: rgb(97, 88, 88);
+            }
+            button {
+              border: solid rgb(120, 9, 109) ;
+              padding: 10px 20px;
+              color: white;
+              background-color:rgb(72, 16, 98);
+              text-align: center;
+              border-radius: 25px;
+              margin-top: 5px;
+            }
+            }

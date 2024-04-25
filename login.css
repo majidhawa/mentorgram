@@ -46,4 +46,230 @@
      justify-content: space-around;
     }
     
+    @media only screen and  (min-width:200px) and (max-width: 400px) {
+      .LoginPage {
+          margin-left: 0%;
+          margin-top: 0%;
+          cursor: pointer;    
+        }
+     #heading{
+          font-size: 20px;
+          color: purple;
+          text-align:left;
+        }
+      
+          .additionaltext{
+              text-align: left;
+          }
+        
+        .form {
+          border: solid purple 2px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 10px;
+          font-size: 15px;
+      
+        }
+        .button {
+          padding: 12px 12px;
+          width: 350px;
+          border-radius: 5px;
+          color: white;
+          background-color: purple;
+        }
+        .input {
+          padding: 12px 12px;
+          width: 320px;
+          border-radius: 5px;
+          
+        }
+        
+        .icons {
+         display: flex;
+         flex: auto;
+         justify-content: space-around;
+        }
+          
+    }
+    @media only screen and  (min-width:400px) and (max-width: 600px) {
+      .LoginPage {
+          margin-left: 0%;
+          margin-top: 0%;
+          cursor: pointer;    
+        }
+     #heading{
+          font-size: 70px;
+          color: purple;
+          text-align:left;
+        }
+      
+          .additionaltext{
+              text-align: left;
+          }
+        
+        .form {
+          border: solid purple 2px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 10px;
+          font-size: 20px;
+      
+        }
+        .button {
+          padding: 12px 12px;
+          width: 400px;
+          border-radius: 5px;
+          color: white;
+          background-color: purple;
+        }
+        .input {
+          padding: 15px 15px;
+          width: 350px;
+          border-radius: 5px;
+          
+        }
+        
+        .icons {
+         display: flex;
+         flex: auto;
+         justify-content: space-around;
+        }
+          
+    }
+    @media only screen and  (min-width:600px) and (max-width: 800px) {
+      .LoginPage {
+          margin-left: 0%;
+          margin-top: 0%;
+          cursor: pointer;    
+        }
+     #heading{
+          font-size: 20px;
+          color: purple;
+          text-align:left;
+        }
+      
+          .additionaltext{
+              text-align: left;
+          }
+        
+        .form {
+          border: solid purple 2px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 10px;
+          font-size: 30px;
+      
+        }
+        .button {
+          padding: 12px 12px;
+          width: 750px;
+          border-radius: 5px;
+          color: white;
+          background-color: purple;
+        }
+        .input {
+          padding: 12px 12px;
+          width: 720px;
+          border-radius: 5px;
+          
+        }
+        
+        .icons {
+         display: flex;
+         flex: auto;
+         justify-content: space-around;
+        }
+          
+    }@media only screen and  (min-width:800px) and (max-width: 1000px) {
+      .LoginPage {
+          margin-left: 0%;
+          margin-top: 0%;
+          cursor: pointer;    
+        }
+     #heading{
+          font-size: 70px;
+          color: purple;
+          text-align:left;
+        }
+          .additionaltext{
+              text-align: left;
+          }
+        
+        .form {
+          border: solid purple 2px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 10px;
+          font-size: 20px;
+      
+        }
+        .button {
+          padding: 25px 12px;
+          width: 800px;
+          border-radius: 5px;
+          color: white;
+          background-color: purple;
+        }
+        .input {
+          padding: 25px 15px;
+          width: 750px;
+          border-radius: 5px;
+          
+        }
+        
+        .icons {
+         display: flex;
+         flex: auto;
+         justify-content: space-around;
+        }
+          
+    }
+    
+    
+    
+    @media only screen and  (min-width:1000px) and (max-width: 1300px) {
+      .LoginPage {
+          margin-left: 0%;
+          margin-top: 0%;
+          cursor: pointer;    
+        }
+     #heading{
+          font-size: 70px;
+          color: purple;
+          text-align:left;
+        }
+          .additionaltext{
+              text-align: left;
+          }
+        
+        .form {
+          border: solid purple 2px;
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-top: 10px;
+          font-size: 20px;
+      
+        }
+        .button {
+          padding: 25px 12px;
+          width: 970px;
+          border-radius: 5px;
+          color: white;
+          background-color: purple;
+        }
+        .input {
+          padding: 25px 15px;
+          width: 950px;
+          border-radius: 5px;
+          
+        }
+        
+        .icons {
+         display: flex;
+         flex: auto;
+         justify-content: space-around;
+        }
+          
+    }
+    
     
