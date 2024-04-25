@@ -1,0 +1,49 @@
+
+.LoginPage {
+    display: flex;
+      margin-left: 30%;
+      margin-top: 3%;
+      cursor: pointer;
+     
+      
+    }
+    
+   
+    #heading{
+      font-size: 50px;
+      color: purple;
+      text-align: center;}
+  
+      .additionaltext{
+          text-align: center;
+      }
+    
+    .form {
+      border: solid purple 5px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 10px;
+      font-size: 18px;
+  
+    }
+    .button {
+      padding: 12px 12px;
+      width: 550px;
+      border-radius: 5px;
+      color: white;
+      background-color: purple;
+    }
+    .input {
+      padding: 12px 12px;
+      width: 530px;
+      border-radius: 5px;
+      
+    }
+    
+    .icons {
+     display: flex;
+     flex: auto;
+     justify-content: space-around;
+    }
+    
+    
