@@ -1,0 +1,12 @@
+#heading{
+    text-align: center;
+    font-size: 40px;
+}
+#bookimage{
+margin-left:45%;
+object-fit: fill;
+}
+#paragraph{
+    font-size: 25px;
+    text-align:justify;
+}

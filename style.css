@@ -1,9 +1,9 @@
 
 .SignUpPage {
   display: flex;
-    margin-left: 29%;
-    margin-top: 3%;
-    cursor: pointer;
+  margin-left: 29%;
+  margin-top: 3%;
+  cursor: pointer;
    
     
   }
@@ -35,28 +35,24 @@
   }
   .button {
     padding: 12px 12px;
-    width: 550px;
+    width: 530px;
     border-radius: 5px;
     color: white;
     background-color: purple;
   }
   .input {
     padding: 12px 12px;
-    width: 530px;
+    width: 500px;
     border-radius: 5px;
     
   }
   .nameinput{
     padding: 12px 12px;
-    width: 250px;
+    width: 230px;
     border-radius: 5px;
 
   }
-  .icons{
-   display: flex;
-   flex: auto;
-   justify-content: space-around;
-  }
+  
   .names {
     display: grid;
     grid-template-columns: 50% 50%;

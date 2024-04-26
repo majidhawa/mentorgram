@@ -16,6 +16,7 @@
   
   }
   
+  
   .navbar a:hover {
   
     color:blueviolet;
@@ -41,25 +42,27 @@
  }
  .tasks{
     border: solid purple 5px;
+    margin-left: 10%; 
+    margin-right: 10%; 
+
  }
-
 .Task{
-    position: relative;
-    display:inline-block;
-    margin: 50px;
-    
-
-    
+    display:flex;
+   margin: 1%; 
+   gap: 30px;
+   margin-left: 200px;
   }
 .Task input {
-    padding-right: 40px;
     padding: 10px 10px;
-    width: 180%;
+   width: 800px;
     font-size: 30px;
     border-radius: 19px;
 }
+#checks{
+width: 50px;
+}
 .Task button {
-    position: absolute;
+   
     top: 0;
     right: 0;
     border: none;
@@ -69,7 +72,7 @@
     color: white;
     border-radius: 19px;
     padding: 20px 40px;
-    transform: translate(320%,1%);
+    transform: translate(20%,1%);
     font-size: 84%;
 }
 @media only screen and (min-width:200px) and (max-width:400px){
@@ -102,7 +105,7 @@
  .header{
     background-color: purple;
     border: solid purple 3px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 20px;
@@ -112,39 +115,43 @@
     color: white;
  }
  .tasks{
-    border: solid purple 5px;
- }
-
+  border: solid purple 5px;
+  margin-left: 0%; 
+  margin-right: 0%; 
+}
 .Task{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    
+display:flex;
+ margin: 0%;
+ margin-top: 2%;
+ margin-bottom: 2%; 
+ margin-left: 0px;
+ 
+ 
 
-    
-  }
+}
 .Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+padding: 10px 10px;
+ width: 200px;
+  font-size: 10px;
+  border-radius: 19px;
+}
+#checks{
+width: 20px;
 }
 .Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+ 
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border-radius: 19px;
+  padding: 20px 20px;
+  transform: translate(0%,1%);
+  font-size: 60%;
+}
 }
 @media only screen and (min-width:400px) and (max-width:600px){
   .navbar {
@@ -186,39 +193,44 @@
     color: white;
  }
  .tasks{
-    border: solid purple 5px;
- }
-
+  border: solid purple 5px;
+  margin-left: 0%; 
+  margin-right: 0%; 
+}
 .Task{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    
+display:flex;
+ margin: 0%;
+ margin-top: 2%;
+ margin-bottom: 2%; 
+ margin-left: 0px;
+ gap: 0;
+ 
+ 
 
-    
-  }
+}
 .Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+  padding: 10px 10px;
+ width: 200px;
+  font-size: 20px;
+  border-radius: 19px;
+}
+#checks{
+width: 18px;
 }
 .Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+ 
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border-radius: 19px;
+  padding: 20px 40px;
+  transform: translate(20%,1%);
+  font-size: 84%;
+}
 }
 @media only screen and (min-width:600px) and (max-width:800px){
   .navbar {
@@ -260,39 +272,44 @@
     color: white;
  }
  .tasks{
-    border: solid purple 5px;
- }
-
+  border: solid purple 5px;
+  margin-left: 0%; 
+  margin-right: 0%; 
+}
 .Task{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    
+display:flex;
+ margin: 0%;
+ margin-top: 2%;
+ margin-bottom: 2%; 
+ margin-left: 0px;
+ gap:0;
+ 
+ 
 
-    
-  }
+}
 .Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+  padding: 10px 10px;
+ width: 500px;
+  font-size: 25px;
+  border-radius: 19px;
+}
+#checks{
+width: 20px;
 }
 .Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+ 
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border-radius: 19px;
+  padding: 20px 40px;
+  transform: translate(20%,1%);
+  font-size: 84%;
+}
 }
 @media only screen and (min-width:800px) and (max-width:1000px){
   .navbar {
@@ -334,39 +351,44 @@
     color: white;
  }
  .tasks{
-    border: solid purple 5px;
- }
-
+  border: solid purple 5px;
+  margin-left: 0%; 
+  margin-right: 0%; 
+}
 .Task{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    
+display:flex;
+ margin: 0%;
+ margin-top: 2%;
+ margin-bottom: 2%; 
+ margin-left: 0px;
+ gap: 0;
+ 
+ 
 
-    
-  }
+}
 .Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+  padding: 10px 10px;
+ width: 600px;
+  font-size: 20px;
+  border-radius: 19px;
+}
+#checks{
+width: 20px;
 }
 .Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+ 
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border-radius: 19px;
+  padding: 20px 40px;
+  transform: translate(20%,1%);
+  font-size: 84%;
+}
 }
 @media only screen and (min-width:1000px) and (max-width:1300px){
   .navbar {
@@ -408,39 +430,44 @@
     color: white;
  }
  .tasks{
-    border: solid purple 5px;
- }
-
+  border: solid purple 5px;
+  margin-left: 0%; 
+  margin-right: 0%; 
+}
 .Task{
-    position: relative;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    
+display:flex;
+ margin: 0%;
+ margin-top: 2%;
+ margin-bottom: 2%; 
+ margin-left: 0px;
+ gap:0;
+ 
+ 
 
-    
-  }
+}
 .Task input {
-    padding-right: 0px;
-    padding: 20px 20px;
-    width: 100%;
-    font-size: 18px;
-    border-radius: 19px;
+  padding: 10px 10px;
+ width: 750px;
+  font-size: 30px;
+  border-radius: 19px;
+}
+#checks{
+width: 40px;
 }
 .Task button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
-    border-radius: 19px;
-    padding: 20px 40px;
-    transform: translate(0%,6%);
-    font-size: 15px;
-} 
+ 
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  border-radius: 19px;
+  padding: 20px 40px;
+  transform: translate(20%,1%);
+  font-size: 84%;
+}
 }
 
 

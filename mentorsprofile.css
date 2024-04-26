@@ -38,6 +38,7 @@
   }
   .mentorsimage{
     margin-left: 200px;
+    margin-top: 35px;
   
 
   }
@@ -49,6 +50,10 @@
     font-size: 25px;
     color: rgb(97, 88, 88);
   }
+  .mentorsdescription{
+    margin-top: 20px;
+
+  }
   button {
     border: solid rgb(120, 9, 109) ;
     padding: 10px 20px;
@@ -59,13 +64,20 @@
     margin-top: 5px;
   }
   @media only screen and  (min-width:200px) and (max-width: 400px) {
+    .navbar {
+      overflow:hidden;
+      padding-right: 0px;
+      background-color: purple;
+      cursor: pointer;
+    
+    }
   .navbar a {
     float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 8px;
   
   }
   
@@ -82,12 +94,13 @@
   }
   .mentorspage{
     
-   flex-wrap: wrap;
+  
    gap: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   #mentorphoto{
     border-radius: 200px;
+    width: 80px;
   }
   .mentorsimage{
     margin-left: 0px;
@@ -95,11 +108,11 @@
 
   }
   .headings{
-    font-size: 30px;
+    font-size: 10px;
     color: purple;
   }
   #additionaltext{
-    font-size: 25px;
+    font-size: 10px;
     color: rgb(97, 88, 88);
   }
   button {
@@ -113,6 +126,13 @@
   }
   }
   @media only screen and  (min-width:400px) and (max-width: 600px) {
+    .navbar {
+      overflow:hidden;
+      padding-right: 0px;
+      background-color: purple;
+      cursor: pointer;
+    
+    }
     .navbar a {
       float: left;
       color: white;
@@ -135,25 +155,22 @@
       color: white;
     }
     .mentorspage{
-      
-     flex-wrap: wrap;
      gap: 0px;
-      margin-top: 50px;
+      margin-top: 0px;
     }
+   #mentorsimage{
+    margin-left: 0px;
+   }
     #mentorphoto{
       border-radius: 200px;
-    }
-    .mentorsimage{
-      margin-left: 0px;
-    
-  
+      width: 80px;
     }
     .headings{
       font-size: 30px;
       color: purple;
     }
     #additionaltext{
-      font-size: 25px;
+      font-size: 10px;
       color: rgb(97, 88, 88);
     }
     button {
@@ -167,6 +184,13 @@
     }
     }
     @media only screen and  (min-width:400px) and (max-width: 600px) {
+      .navbar {
+        overflow:hidden;
+        padding-right: 0px;
+        background-color: purple;
+        cursor: pointer;
+      
+      }
       .navbar a {
         float: left;
         color: white;
@@ -189,25 +213,23 @@
         color: white;
       }
       .mentorspage{
-        
-       flex-wrap: wrap;
        gap: 0px;
-        margin-top: 50px;
+        margin-top: 0px;
+      }
+      #mentorsimage{
+        border-radius: 200px;
+        margin-left: 0px;
       }
       #mentorphoto{
         border-radius: 200px;
-      }
-      .mentorsimage{
-        margin-left: 0px;
-      
-    
+        width: 80px;
       }
       .headings{
         font-size: 30px;
         color: purple;
       }
       #additionaltext{
-        font-size: 25px;
+        font-size: 10px;
         color: rgb(97, 88, 88);
       }
       button {
@@ -220,7 +242,16 @@
         margin-top: 5px;
       }
       }
+     
+    
       @media only screen and  (min-width:600px) and (max-width: 800px) {
+        .navbar {
+          overflow:hidden;
+          padding-right: 0px;
+          background-color: purple;
+          cursor: pointer;
+        
+        }
         .navbar a {
           float: left;
           color: white;
@@ -243,13 +274,12 @@
           color: white;
         }
         .mentorspage{
-          
-         flex-wrap: wrap;
          gap: 0px;
-          margin-top: 50px;
+          margin-top: 0px;
         }
         #mentorphoto{
           border-radius: 200px;
+          width: 80px;
         }
         .mentorsimage{
           margin-left: 0px;
@@ -261,7 +291,7 @@
           color: purple;
         }
         #additionaltext{
-          font-size: 25px;
+          font-size: 10px;
           color: rgb(97, 88, 88);
         }
         button {
@@ -274,7 +304,15 @@
           margin-top: 5px;
         }
         }
+        
         @media only screen and  (min-width:800px) and (max-width: 1000px) {
+          .navbar {
+            overflow:hidden;
+            padding-right: 0px;
+            background-color: purple;
+            cursor: pointer;
+          
+          }
           .navbar a {
             float: left;
             color: white;
@@ -297,13 +335,12 @@
             color: white;
           }
           .mentorspage{
-            
-           flex-wrap: wrap;
            gap: 0px;
-            margin-top: 50px;
+            margin-top: 0px;
           }
           #mentorphoto{
             border-radius: 200px;
+            width: 80px;
           }
           .mentorsimage{
             margin-left: 0px;
@@ -315,7 +352,7 @@
             color: purple;
           }
           #additionaltext{
-            font-size: 25px;
+            font-size: 10px;
             color: rgb(97, 88, 88);
           }
           button {
@@ -329,6 +366,13 @@
           }
           }
           @media only screen and  (min-width:1000px) and (max-width: 1300px) {
+            .navbar {
+              overflow:hidden;
+              padding-right: 0px;
+              background-color: purple;
+              cursor: pointer;
+            
+            }
             .navbar a {
               float: left;
               color: white;
@@ -351,13 +395,12 @@
               color: white;
             }
             .mentorspage{
-              
-             flex-wrap: wrap;
              gap: 0px;
-              margin-top: 50px;
+              margin-top: 0px;
             }
             #mentorphoto{
               border-radius: 200px;
+              width: 80px;
             }
             .mentorsimage{
               margin-left: 0px;
@@ -365,16 +408,16 @@
           
             }
             .headings{
-              font-size: 30px;
+              font-size: 10px;
               color: purple;
             }
             #additionaltext{
-              font-size: 25px;
+              font-size: 10px;
               color: rgb(97, 88, 88);
             }
             button {
               border: solid rgb(120, 9, 109) ;
-              padding: 10px 20px;
+              padding: 5px 5px;
               color: white;
               background-color:rgb(72, 16, 98);
               text-align: center;
